@@ -1,15 +1,7 @@
-.container {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    position: relative;
-    text-align: left;
-    color: rgb(15, 16, 17);
-    
-  }
-  
-  .bottom-left {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-    background-color: rgb(94, 163, 223);
-    margin-left: 50px;
-  }
+* {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
