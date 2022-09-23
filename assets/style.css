@@ -6,8 +6,9 @@
 }
 
 :root {
-    --primary-color: rgb(68, 66, 66);
-    --secondary-color:  rgb(110, 216, 216)
+    --primary-color: rgb(35, 44, 56);
+    --secondary-color:  rgb(110, 216, 216);
+    --tri-color: rgb(21, 89, 142);
 
 }
 /*
@@ -36,6 +37,7 @@ header {
     padding: 20px;
     background-color:var(--secondary-color);
     font-size:50px;
+    font-weight: 100;
     color: var(--primary-color);
 }
 
@@ -44,14 +46,11 @@ img {
     padding: 3px;
     border-radius: 50px;
     background-color: rgb(0, 0, 0);
-  }
+}
 
   nav li {
     display: inline-block;
-
-
-    
-  }
+}
 
   .nav-link {
     text-decoration: none;
@@ -59,9 +58,42 @@ img {
     color:var(--secondary-color) ;
     text-decoration: underline;
     padding-right: 10px;
-  }
+}
 
 nav {
    padding-left: 350px;
    padding-top: 40px;
+}
+
+#about-me{
+    display: flex;
+    padding-top: 70px;
+    padding-right: 200px;
+    padding-left: 20px;
+    color: var(--tri-color);
+}
+
+
+aside {
+    width: 10%;
+    padding-left: .5rem;
+    margin-left: 15.0rem;
+    float: left;
+    color: var(--tri-color);
+    border-color:var(--tri-color);
+    border-style: solid;
+    border-top-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    margin-top: 65px;
+    font-size: 25px;
+    text-align: right;   
+}
+
+h2 {
+    font-weight: 50;
+    font-size: 50px;
+    margin-left: -80px;
+    margin-right: 20px;
+
 }
