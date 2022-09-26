@@ -10,8 +10,8 @@
 
 <body>
     <header>
-        <img src="https://avatars.githubusercontent.com/u/112132288?v=4" alt="image of myself">
-        <h1 id="name">Charles Cox III</h1>
+        
+        <h1 id="name"><img src="https://avatars.githubusercontent.com/u/112132288?v=4" alt="image of myself">Charles Cox III</h1>
         <nav>
             <a class="nav-link" href="#About Me">About Me</a>   
             <a class="nav-link" href="#Work">Work</a>
@@ -23,7 +23,7 @@
     <div id="about-me">
     <h2>About Me</h2>
     <section class="border-line">
-        <p>
+        <p id="me-paragraph">
             Hello, welcome to my personal portfolio page. I'm excited you've decide to stop by! Before you check out some of my previous projects I'll give you a little information about myself. My name is Charles Cox, and I currently
             live in Northern California. I have not been coding for very long but I find the process exciting and challenging. Before diving into coding I was an audio engineer and living in Southern California.
             If you click the links above they should take you to their corresponding sections. I'll be updating this portfolio frequently to 
@@ -34,18 +34,70 @@
     
     <div id="work">
     <h2 id="work-right">Work</h2>
-    <section class="border-line" id="work-flex">
-        <section class="flex-this" id="flex-1"></section>
-        <section class="flex-this" id= "flex-2"></section>
-        <section class="flex-this" id= "flex-2"></section>
-        <section class="flex-this" id= "flex-2"></section>
-        <section class="flex-this" id= "flex-2"></section>
+    <section class="border-line" id="work-box">
+        <section class="container1">
+            <a href="https://www.surfline.com/"><div class="flex1">
+                <figure><img class="pictures-big" src="./assets/img/Surf.jpeg"
+                     alt="A Beach">
+                </figure>
+                <div class="top-box">
+                    <h3>Surf Report</h3>
+                    <p>MERN Stack</p>
+                </div>
+            </div>
+            </a>
+        </section>
+        <section class="container2">
+            <a href="https://www.planar.com/products/led-video-walls/"><div class="flex2">
+                <figure><img class="pictures" src="./assets/img/Led Wall.jpeg"
+                     alt="LedWall">
+                </figure>
+                <div class="inside-box">
+                    <h3>Led Wall</h3>
+                    <p>Node/Iot</p>
+                </div>
+            </div>
+            </a>
+            <a href="https://www.calculator.net/">
+            <div class="flex2">
+                <figure> 
+                    <img class="pictures" src="./assets/img/Calculator.jpeg" alt="A Calculator">
+                </figure>
+                <div class="inside-box">
+                    <h3>Calculator</h3>
+                    <p>React/JavaScript/CSS</p>
+                </div>
+            </div>
+            </a>
+            <a href="https://pixels.com/shop/puzzles/pastel+color">
+            <div class="flex2">
+                <figure> 
+                    <img class="pictures" src="./assets/img/Pastel Puzzles.jpeg" alt="A Sunset Puzzle">
+                </figure>
+                <div class="inside-box">
+                    <h3>Pastel Puzzles</h3>
+                    <p>MERN Stack</p>
+                </div>
+            </div>
+            </a>
+            <a href="https://runbuddymobile.com/">
+            <div class="flex2">
+                <figure> 
+                    <img class="pictures" src="./assets/img/Map.jpeg" alt="Navagation Arrow">
+                </figure>
+                <div class="inside-box">
+                    <h3>Run Buddy</h3>
+                    <p>HTML/CSS</p>
+                </div>
+            </div>
+            </a>
+        </section>
     </section>
     </div>
 
     <div id="contact-me">
-        <h2 id="move-left">Contact Me</h2>
-        <section class="border-line" id="my-contact">
+        <h2 class="border-line2">Contact Me</h2>
+        <section >
             <ul>
                 <li ><a class="nav-bottom" href="tel:9163356943">916-335-6943</a></li>
                 <li ><a class="nav-bottom" href="mailto:Charles.Cox.iii@aol.com">Charles.Cox.iii@aol.com</a></li>
