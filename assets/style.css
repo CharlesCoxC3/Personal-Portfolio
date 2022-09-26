@@ -203,25 +203,7 @@ section li{
 a:hover{
     color: darkred;
 }
-/*
 
-
-#flex-2{
-    height: 150px;
-    width: 45%;
-}
-
-.container2 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-/*
-
-
-  
-
-*/
 @media screen and (max-width: 768px) {
     body,
     header,
