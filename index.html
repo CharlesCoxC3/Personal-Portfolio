@@ -3,59 +3,108 @@
 
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./assets/style.css">
     <title>MyPort</title>
 </head>
 
 <body>
     <header>
-        <img src="https://avatars.githubusercontent.com/u/112132288?v=4" alt="image of myself">
-        <h1 id="name">Charles Cox III</h1>
+        
+        <h1 id="name"><img src="https://avatars.githubusercontent.com/u/112132288?v=4" alt="image of myself">Charles Cox III</h1>
         <nav>
-            <ul>
-                <li>
-                    <a class="nav-link" href="#About Me">About Me</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#Work">Work</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#Contact Me">Contact Me</a>
-                </li>
-                <li><a class="nav-link" href="#Resume">Resume</a></li>
-            </ul>
+            <a class="nav-link" href="#About Me">About Me</a>   
+            <a class="nav-link" href="#Work">Work</a>
+            <a class="nav-link" href="#Contact Me">Contact Me</a>             
+            <a class="nav-link" href="#Resume">Resume</a>
         </nav>
     </header>
 <main>
+    <div id="about-me">
+    <h2>About Me</h2>
+    <section class="border-line">
+        <p id="me-paragraph">
+            Hello, welcome to my personal portfolio page. I'm excited you've decide to stop by! Before you check out some of my previous projects I'll give you a little information about myself. My name is Charles Cox, and I currently
+            live in Northern California. I have not been coding for very long but I find the process exciting and challenging. Before diving into coding I was an audio engineer and living in Southern California.
+            If you click the links above they should take you to their corresponding sections. I'll be updating this portfolio frequently to 
+            keep showcasing all of the cool and interesting projects I've had a chance to be apart of. Thank you for stopping by!  
+        </p>
+    </section>
+    </div>
     
-    
-        <section class=>
-            <aside><h2>About Me</h2></aside>
-            <p class="about-me" id="para">
-                Hello, welcome to my personal portfolio page. I'm excited you've decide to stop by! Before you check out some of my previous project I'll give you a little information about myself. My name is Charles Cox, and I currently
-                live in Northern California. I have not been coding for very long but I find the process exciting and challenging. Before diving into coding I was an audio engineer and living in southern California.
-                If you click the links above they should take you to their corresponding sections. I'll be updating this portfolio frequently to 
-                keep showcasing all of the cool and interesting projects I've had a chance to be apart of. Thank you for stopping by!  
-            </p>
+    <div id="work">
+    <h2 id="work-right">Work</h2>
+    <section class="border-line" id="work-box">
+        <section class="container1">
+            <a href="https://www.surfline.com/"><div class="flex1">
+                <figure><img class="pictures-big" src="./assets/img/Surf.jpeg"
+                     alt="A Beach">
+                </figure>
+                <div class="top-box">
+                    <h3>Surf Report</h3>
+                    <p>MERN Stack</p>
+                </div>
+            </div>
+            </a>
         </section>
+        <section class="container2">
+            <a href="https://www.planar.com/products/led-video-walls/"><div class="flex2">
+                <figure><img class="pictures" src="./assets/img/Led Wall.jpeg"
+                     alt="LedWall">
+                </figure>
+                <div class="inside-box">
+                    <h3>Led Wall</h3>
+                    <p>Node/Iot</p>
+                </div>
+            </div>
+            </a>
+            <a href="https://www.calculator.net/">
+            <div class="flex2">
+                <figure> 
+                    <img class="pictures" src="./assets/img/Calculator.jpeg" alt="A Calculator">
+                </figure>
+                <div class="inside-box">
+                    <h3>Calculator</h3>
+                    <p>React/JavaScript/CSS</p>
+                </div>
+            </div>
+            </a>
+            <a href="https://pixels.com/shop/puzzles/pastel+color">
+            <div class="flex2">
+                <figure> 
+                    <img class="pictures" src="./assets/img/Pastel Puzzles.jpeg" alt="A Sunset Puzzle">
+                </figure>
+                <div class="inside-box">
+                    <h3>Pastel Puzzles</h3>
+                    <p>MERN Stack</p>
+                </div>
+            </div>
+            </a>
+            <a href="https://runbuddymobile.com/">
+            <div class="flex2">
+                <figure> 
+                    <img class="pictures" src="./assets/img/Map.jpeg" alt="Navagation Arrow">
+                </figure>
+                <div class="inside-box">
+                    <h3>Run Buddy</h3>
+                    <p>HTML/CSS</p>
+                </div>
+            </div>
+            </a>
+        </section>
+    </section>
+    </div>
 
-        <section>
-            <aside><h2 id="me-border">Contact Me</h2></aside>
-            <nav>
-            <ul id="contact-me">
-                <li ><a class="bottom-nav" href="tel:9163356943">916-335-6943</a></li>
-                <li ><a class="bottom-nav" href="mailto:Charles.Cox.iii@aol.com">Charles.Cox.iii@aol.com</a></li>
-                <li ><a class="bottom-nav" href="https://github.com/CharlesCoxC3">GitHub</a></li>
+    <div id="contact-me">
+        <h2 class="border-line2">Contact Me</h2>
+        <section >
+            <ul>
+                <li ><a class="nav-bottom" href="tel:9163356943">916-335-6943</a></li>
+                <li ><a class="nav-bottom" href="mailto:Charles.Cox.iii@aol.com">Charles.Cox.iii@aol.com</a></li>
+                <li ><a class="nav-bottom" href="https://github.com/CharlesCoxC3">GitHub</a></li>
             </ul>
-            </nav>
-
-
         </section>
-    
-
-    <footer>
-    
-    </footer>
+    </div>
 </main>
 </body>
 
